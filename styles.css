@@ -1,0 +1,28 @@
+.navbar-home {
+    background-color: #36ced3;
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: rgb(231, 41, 41);
+    font-size: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li:hover {
+    background: red;
+    border-radius: 10px;
+}
+
+.drop li a{
+    color: rgb(231, 41, 41);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.drop li a:hover {
+    background: turquoise;
+}
+
+.butt {
+    background-color: rgb(181, 224, 64);
+}
