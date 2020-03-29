@@ -1,6 +1,22 @@
 .navbar-home {
     background-color: #36ced3;
-    border-color: #e7e7e7;
+    border: 0px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: red;
+}
+
+.name {
+    font-weight: bold;
+    font-family: 'Sofia', cursive;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -25,4 +41,8 @@ ul li:hover {
 
 .butt {
     background-color: rgb(181, 224, 64);
+}
+
+.inside {
+    background-color: lemonchiffon;
 }
