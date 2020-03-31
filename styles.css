@@ -23,6 +23,7 @@
     color: rgb(231, 41, 41);
     font-size: inherit;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
 }
 
 ul li:hover {
@@ -39,8 +40,14 @@ ul li:hover {
     background: turquoise;
 }
 
-.butt {
-    background-color: rgb(181, 224, 64);
+.in-form {
+    margin-top: 5px;
+}
+
+.butt-top {
+    background-color: rgb(50, 105, 207);
+    width: 100px;
+    margin-bottom: 15px;
 }
 
 .inside {
@@ -66,7 +73,7 @@ ul li:hover {
     text-align: center;
 }
 
-.buttn {
+.buttn-hm {
     margin-left: 100px;
     background-color: black;
     color: white;
@@ -83,3 +90,138 @@ ul li:hover {
     color: rgb(231, 41, 41);;
     text-align: center;
   }
+
+  .phorm {
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .bttn-botm {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin-left: 300px;
+    border: none;
+    width: 50%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+  /* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: blue;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: white;
+}
+
+/* Linkedin */
+.fa-linkedin {
+  color: blue
+}
+
+/* Instagram */
+.fa-instagram {
+  color: red;
+}
+
+.left {
+  padding-top: 15px;
+  font-family: 'Gutu';
+  font-size: 18px;
+  color: black;
+}
